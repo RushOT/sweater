@@ -3,6 +3,6 @@
 
 <@c.page>
     Add new user
-    ${message}
+    ${message?ifExists}
     <@l.login path="/registration" buttonName="Register"/>
 </@c.page>
